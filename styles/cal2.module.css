@@ -1,0 +1,19 @@
+.calendarContainer {
+  margin: 0 8px;
+  height: 100%;
+  text-align: center;
+}
+
+.dayCard {
+  width: 88%;
+  max-width: 300px;
+  background-color: #c56928;
+  margin: 3px auto;
+  padding: 5px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+.restDayCard {
+  background-color: #8b4a1d;
+}

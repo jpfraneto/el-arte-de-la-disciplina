@@ -1,0 +1,12 @@
+.programaContainer {
+  width: 94%;
+  margin: 0 auto;
+  max-width: 777px;
+  padding: 8px;
+}
+
+.programaContainer ul {
+  list-style-type: disc;
+  margin: 8px 0;
+  padding-left: 33px;
+}

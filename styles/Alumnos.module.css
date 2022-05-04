@@ -1,0 +1,25 @@
+.alumnosContainer {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.alumnoElement {
+  text-align: center;
+  width: fit-content;
+  padding: 8px;
+  background-color: blanchedalmond;
+  border: solid black 1px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nuevoAlumno {
+  background-color: rgb(187, 150, 70);
+}
+
+.alumnoElement:hover {
+  filter: brightness(85%);
+}

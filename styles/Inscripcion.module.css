@@ -1,0 +1,33 @@
+.container {
+  width: 94%;
+  margin: 0 auto;
+  max-width: 888px;
+  text-align: center;
+}
+
+.inscripcionForm {
+  margin-top: 20px;
+}
+
+.inscripcionForm div > * {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.inscripcionForm input {
+  width: 30%;
+  min-width: 333px;
+}
+
+.inscripcionForm select {
+  width: 30%;
+  min-width: 333px;
+}
+
+.inscripcionForm label {
+  display: block;
+}
+
+.inscripcionForm textarea {
+  height: 200px;
+}
