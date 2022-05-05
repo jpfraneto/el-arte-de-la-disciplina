@@ -24,7 +24,12 @@ const Jp = () => {
         la foto).
       </p>
       <div className={styles.jpImageContainer}>
-        <Image src='/images/shakira.jpg' width='300px' height='222px' />
+        <Image
+          alt='familia'
+          src='/images/shakira.jpg'
+          width='300px'
+          height='222px'
+        />
       </div>
       <p>
         Soy Ingeniero Civil de profesión, estudié en la Universidad de Chile y

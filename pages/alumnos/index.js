@@ -10,7 +10,7 @@ const Alumnos = () => {
       <div className={styles.alumnosContainer}>
         {alumnos.map((al, index) => {
           return (
-            <div className={styles.alumnoElement}>
+            <div className={styles.alumnoElement} key={index}>
               <h6>
                 <span className={styles.name}>{al.name}</span> · {al.age} años ·{' '}
                 {al.location} - {al.region}{' '}
