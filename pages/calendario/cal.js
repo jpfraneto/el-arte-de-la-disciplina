@@ -6,8 +6,8 @@ import Link from 'next/link';
 const Calendario = () => {
   return (
     <div className={styles.calendarContainer}>
-      {dates.map(x => (
-        <CalendarDay day={x} />
+      {dates.map((x, index) => (
+        <CalendarDay key={index} day={x} />
       ))}
     </div>
   );

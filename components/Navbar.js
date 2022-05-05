@@ -15,9 +15,9 @@ const Navbar = () => {
         <Link href='/alumnos'>
           <a>Alumnos</a>
         </Link>
-        <Link href='/calendario'>
+        {/* <Link href='/calendario'>
           <a>Calendario</a>
-        </Link>
+        </Link> */}
         <Link href='/jp'>
           <a>jp</a>
         </Link>

@@ -6,8 +6,8 @@ const Cal = () => {
   return (
     <div className={styles.calendarContainer}>
       <h1>Calendario</h1>
-      {dates.map(date => (
-        <CalElement day={date} />
+      {dates.map((date, index) => (
+        <CalElement key={index} day={date} />
       ))}
     </div>
   );

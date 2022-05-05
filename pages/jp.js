@@ -8,7 +8,7 @@ const Jp = () => {
       <p>
         Soy quien está a cargo de inventar este lugar. Si es que quieres
         conocerme mejor, te invito a visitar mi página web:{' '}
-        <a target='_blank' href='https://www.jpfraneto.com'>
+        <a target='_blank' rel='noreferrer' href='https://www.jpfraneto.com'>
           www.jpfraneto.com
         </a>
       </p>

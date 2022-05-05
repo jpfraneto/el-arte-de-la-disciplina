@@ -10,8 +10,8 @@ const Alumnos = () => {
       <div className={styles.alumnosContainer}>
         {alumnos.map((al, index) => {
           return (
-            <Link href={`/alumnos/${al.slug}`} passHref>
-              <div className={styles.alumnoElement} key={index}>
+            <Link href={`/alumnos/${al.slug}`} key={index} passHref>
+              <div className={styles.alumnoElement}>
                 <h2>{al.name}</h2>
                 <h3>{al.age}</h3>
                 <h4>
