@@ -1,22 +1,23 @@
 .container {
   height: 100%;
   width: 100%;
-  background-image: url('/images/archan.jpeg');
+  background-image: url('/images/peace.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  text-align: center;
 }
 
 .container h1 {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 3rem;
 }
 
 .container h2 {
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
 }
@@ -35,6 +36,7 @@
   border: solid black 2px;
   padding: 12px;
   border-radius: 8px;
+  box-shadow: 1px 1px black;
 }
 
 .participateBtn:hover {

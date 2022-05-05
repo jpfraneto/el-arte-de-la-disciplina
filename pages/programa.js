@@ -27,7 +27,7 @@ const Programa = () => {
       </p>
       <p>
         Habrán clases todos los días Lunes, miércoles y viernes de Kundalini
-        Yoga.
+        Yoga, a las 19:30.
       </p>
       <p>
         Martes, Jueves y Domingo haremos una meditación de entre 10 a 20 minutos

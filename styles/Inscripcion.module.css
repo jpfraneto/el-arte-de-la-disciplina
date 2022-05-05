@@ -1,27 +1,38 @@
 .container {
-  width: 94%;
-  margin: 0 auto;
-  max-width: 888px;
+  padding: 12px;
+  width: 100%;
+  min-height: calc(100vh - 55px);
   text-align: center;
+  background-image: url('/images/yoga.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inscripcionForm {
-  margin-top: 20px;
+  border-radius: 8px;
+  max-width: 666px;
+  width: 90%;
+  margin: 0 auto;
+  border: solid black 2px;
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  padding: 8px;
 }
 
 .inscripcionForm div > * {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .inscripcionForm input {
-  width: 30%;
-  min-width: 333px;
+  min-width: 222px;
 }
 
 .inscripcionForm select {
-  width: 30%;
-  min-width: 333px;
+  width: 100%;
+  min-width: 222px;
+  max-width: 333px;
 }
 
 .inscripcionForm label {
@@ -30,4 +41,12 @@
 
 .inscripcionForm textarea {
   height: 200px;
+}
+
+.inscripcionForm button {
+  background-color: goldenrod;
+  border: solid black 2px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: white 0.5px 0.5px;
 }

@@ -8,6 +8,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h2>21 días de yoga</h2>
+      <h3>
+        Trabajando la ansiedad y la presión que genera la etapa
+        preuniversitaria.
+      </h3>
 
       <div className={styles.emailForm}>
         <Link href='/inscripcion'>

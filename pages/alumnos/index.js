@@ -6,19 +6,16 @@ import Link from 'next/link';
 const Alumnos = () => {
   return (
     <div>
-      <h1>Alumnos</h1>
+      <h1>Alumn@s</h1>
       <div className={styles.alumnosContainer}>
         {alumnos.map((al, index) => {
           return (
-            <Link href={`/alumnos/${al.slug}`} key={index} passHref>
-              <div className={styles.alumnoElement}>
-                <h2>{al.name}</h2>
-                <h3>{al.age}</h3>
-                <h4>
-                  {al.location} - {al.region}
-                </h4>
-              </div>
-            </Link>
+            <div className={styles.alumnoElement}>
+              <h6>
+                <span className={styles.name}>{al.name}</span> · {al.age} años ·{' '}
+                {al.location} - {al.region}{' '}
+              </h6>
+            </div>
           );
         })}
         <Link href={`/inscripcion`} passHref>
